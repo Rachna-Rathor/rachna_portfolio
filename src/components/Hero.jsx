@@ -1,6 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT } from "../constants";
-import profilephoto from "../assets/profilephoto.jpg";
+import profilephoto from "/src/assets/profilephoto.jpg"
 import { animate, motion } from "framer-motion";
 
 
