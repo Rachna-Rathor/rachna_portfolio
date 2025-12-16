@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="mb-20 flex items-center justify-between py-6">
       {/* Logo Section */}
       <div className="flex flex-shrink-0 items-center">
-        <h2 className="font-bold text-3xl">PortFolio RACHNA</h2>
+        <h2 className="font-bold text-3xl">PortFolio </h2>
       </div>
 
       {/* Social Icons Section */}
