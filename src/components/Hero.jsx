@@ -1,6 +1,6 @@
 import React from 'react';
 import { HERO_CONTENT } from "../constants";
-import profilephoto from "/src/assets/profilephoto.jpg"
+import profilephoto from "/src/assets/profilePhoto.jpeg"
 import { animate, motion } from "framer-motion";
 
 
@@ -12,9 +12,9 @@ function Hero() {
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
             <motion.h1
-             whileInView={{ opacity: 1, x: 0 }}
-             initial={{ opacity: 0, x: -100 }}
-             transition={{ duration: 0.4 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.4 }}
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
               Rachna
@@ -40,19 +40,19 @@ function Hero() {
 
         {/* Right Section */}
         <div
-         
+
           className="w-full lg:w-1/2 lg-p-8"
         >
           <div className="flex justify-center">
-            <motion.img 
-           
-           whileInView={{ opacity: 1, x: 0 }}
-           initial={{ opacity: 0, x: 100 }}
-           transition={{ duration: 1 }}
-              className="h-[400px] w-[600px] rounded-2xl"
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5, ease: "easeInOut" }}
+              className="w-96 h-96 rounded-full object-cover object-top shadow-lg"
               src={profilephoto}
               alt="Profile"
             />
+
           </div>
         </div>
       </div>
