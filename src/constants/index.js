@@ -27,18 +27,18 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MongoDB", "Express.js",],
   },
   {
-  year: "Dec'2025",
-  role: "Data Analytics Virtual Experience Participant",
-  company: "Deloitte (Forage)",
-  description: `Completed a virtual job simulation focused on data analytics and forensic technology, replicating real-world consulting tasks. Analyzed datasets to identify patterns, detect anomalies, and generate insights for simulated client cases. Developed strong analytical thinking, problem-solving, and client-focused reporting skills aligned with Deloitte’s professional standards.`,
-  technologies: [
-    "Data Analysis",
-    "Forensic Analytics",
-    "Data Interpretation",
-    "Analytical Thinking",
-    "Client Reporting"
-  ],
-},
+    year: "Dec'2025",
+    role: "Data Analytics Virtual Experience Participant",
+    company: "Deloitte (Forage)",
+    description: `Completed a virtual job simulation focused on data analytics and forensic technology, replicating real-world consulting tasks. Analyzed datasets to identify patterns, detect anomalies, and generate insights for simulated client cases. Developed strong analytical thinking, problem-solving, and client-focused reporting skills aligned with Deloitte’s professional standards.`,
+    technologies: [
+      "Data Analysis",
+      "Forensic Analytics",
+      "Data Interpretation",
+      "Analytical Thinking",
+      "Client Reporting"
+    ],
+  },
 
 ];
 
@@ -59,20 +59,61 @@ export const PROJECTS = [
     ],
     github: "https://github.com/Rachna-Rathor/Voting-App"
   },
-   {
-  title: "Employee Payroll System ",
-  image: project8, // add payroll-related image or screenshot
+  {
+  title: "Job Portal (Backend)",
+  image: project3, 
   description:
-    "A Java-based Payroll Management System designed to simulate real-world employee salary processing. The system automates salary calculations based on working hours and deductions, using core Object-Oriented Programming principles such as inheritance, encapsulation, and abstraction to ensure a modular and maintainable design.",
+    "A secure, role-based backend system for a job portal that allows recruiters to manage job postings and candidates to apply, withdraw, and track applications. The system implements JWT-based authentication and authorization to ensure secure access control, protects APIs, and prevents duplicate applications. It includes an end-to-end workflow for job creation, candidate applications, applicant listing, and role-based access management.",
   technologies: [
-    "Core Java",
-    "Object-Oriented Programming (OOP)",
-    "Inheritance",
-    "Encapsulation",
-    "Abstraction"
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JWT Authentication",
+    "REST API"
   ],
-  github: "https://github.com/Rachna-Rathor/Payroll-Management-System"
+  github: "https://github.com/Rachna-Rathor/Job-Portal-Backend"
 },
+  // {
+  //   title: "Job Portal Website",
+  //   image: project3,
+  //   description:
+  //     "A platform for job seekers and employers, featuring job postings, resume uploads, and application tracking. Built a seamless experience with dynamic filtering and real-time updates.",
+  //   technologies: ["React", "Node.js", "Express", "MongoDB"],
+  //   github: "https://github.com/Rachna-Rathor/job-portal-website"
+  // },
+
+  {
+    title: "E-Commerce Website",
+    image: project5,
+    description:
+      "A fully functional e-commerce website featuring product search, user authentication, and a shopping cart. Implemented a secure backend using Node.js and MongoDB.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    github: "https://github.com/Rachna-Rathor/Ecommerce-app-Using-MERN"
+  },
+
+  {
+    title: "Employee Management System",
+    image: project4, // Replace with the correct image path for this project
+    description:
+      "A React-based Employee Management System that enables administrators to create tasks and assign them to employees. Employees can view, update, and mark tasks as completed. The system offers a responsive user interface and ensures efficient task management.",
+    technologies: ["React", "Tailwind"],
+    github: "https://github.com/Rachna-Rathor/Employee-Management-System" // Replace with the actual GitHub link
+  },
+  {
+    title: "Employee Payroll System ",
+    image: project8, // add payroll-related image or screenshot
+    description:
+      "A Java-based Payroll Management System designed to simulate real-world employee salary processing. The system automates salary calculations based on working hours and deductions, using core Object-Oriented Programming principles such as inheritance, encapsulation, and abstraction to ensure a modular and maintainable design.",
+    technologies: [
+      "Core Java",
+      "Object-Oriented Programming (OOP)",
+      "Inheritance",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    github: "https://github.com/Rachna-Rathor/Payroll-Management-System"
+  },
 
   {
     title: "Country API Project",
@@ -90,39 +131,7 @@ export const PROJECTS = [
     technologies: ["Node.js", "Express", "MongoDB", "JWT"],
     github: "https://github.com/Rachna-Rathor/Todo-app-backend"
   },
-  {
-    title: "Job Portal Website",
-    image: project3,
-    description:
-      "A platform for job seekers and employers, featuring job postings, resume uploads, and application tracking. Built a seamless experience with dynamic filtering and real-time updates.",
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/Rachna-Rathor/job-portal-website"
-  },
-  {
-    title: "Employee Management System",
-    image: project4, // Replace with the correct image path for this project
-    description:
-      "A React-based Employee Management System that enables administrators to create tasks and assign them to employees. Employees can view, update, and mark tasks as completed. The system offers a responsive user interface and ensures efficient task management.",
-    technologies: ["React", "Tailwind"],
-    github: "https://github.com/Rachna-Rathor/Employee-Management-System" // Replace with the actual GitHub link
-  },
 
-  {
-    title: "E-Commerce Website",
-    image: project5,
-    description:
-      "A fully functional e-commerce website featuring product search, user authentication, and a shopping cart. Implemented a secure backend using Node.js and MongoDB.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    github: "https://github.com/Rachna-Rathor/Ecommerce-app-Using-MERN"
-  },
-
-  {
-    title: "Currency Converter",
-    image: null,
-    technologies: ["Core java"],
-    github: "https://github.com/Rachna-Rathor/currency-converter",
-    description: "Designed and implemented a simple currency converter application using Java. The tool allows users to convert values between different currencies based on real-time or predefined exchange rates. The application features a user-friendly interface (console-based or GUI with Swing) and handles input validation and basic error checking. This project strengthened my core Java skills and understanding of control structures, data types, and user interaction."
-  }
 ];
 
 export const CONTACT = {
