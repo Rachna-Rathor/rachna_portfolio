@@ -12,11 +12,11 @@ import project8 from "../assets/projects/project8.png";
 import { image, title } from "framer-motion/client";
 
 
-export const HERO_CONTENT = `I’m a dedicated and enthusiastic full-stack developer with a strong passion for building responsive, efficient, and user-centric web applications. With hands-on experience in both frontend and backend technologies, I strive to create seamless digital experiences. My goal is to contribute innovative solutions that not only meet technical requirements but also elevate user satisfaction and business value`;
+export const HERO_CONTENT = `I am a passionate full-stack developer focused on building responsive, scalable, and real-world web applications. I enjoy creating clean, efficient solutions that combine strong functionality with great user experience. I am eager to grow as a developer, contribute to impactful projects, and continuously improve my technical skills.`;
 
-export const ABOUT_TEXT = `As a dedicated final-year BTech student in Electronics and Communication Engineering (ECE), I’ve developed a strong interest and skillset in full-stack web development. Proficient in technologies like React, Node.js, and MongoDB, I’m passionate about building efficient, scalable, and user-friendly web applications.
+export const ABOUT_TEXT = `I am a BTech graduate (2025) in Electronics and Communication Engineering (ECE) with hands-on experience in full-stack web development. I have built multiple projects using technologies such as React, Node.js, Express, and MongoDB, with a strong focus on performance, scalability, and usability.
 
-What began as a curiosity for technology has grown into a deep commitment to continuous learning and creative problem-solving. I thrive on turning ideas into functional solutions and enjoy collaborating on impactful projects. Beyond coding, I love exploring emerging technologies and actively contributing to open-source communities.`;
+Driven by curiosity and a strong desire to learn, I enjoy transforming ideas into functional applications and solving real-world problems through code. I am actively seeking software development opportunities where I can apply my skills, collaborate with experienced teams, and contribute to building reliable and high-quality software products.`;
 
 export const EXPERIENCES = [
   {
@@ -60,20 +60,20 @@ export const PROJECTS = [
     github: "https://github.com/Rachna-Rathor/Voting-App"
   },
   {
-  title: "Job Portal (Backend)",
-  image: project3, 
-  description:
-    "A secure, role-based backend system for a job portal that allows recruiters to manage job postings and candidates to apply, withdraw, and track applications. The system implements JWT-based authentication and authorization to ensure secure access control, protects APIs, and prevents duplicate applications. It includes an end-to-end workflow for job creation, candidate applications, applicant listing, and role-based access management.",
-  technologies: [
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Mongoose",
-    "JWT Authentication",
-    "REST API"
-  ],
-  github: "https://github.com/Rachna-Rathor/Job-Portal-Backend"
-},
+    title: "Job Portal (Backend)",
+    image: project3,
+    description:
+      "A secure, role-based backend system for a job portal that allows recruiters to manage job postings and candidates to apply, withdraw, and track applications. The system implements JWT-based authentication and authorization to ensure secure access control, protects APIs, and prevents duplicate applications. It includes an end-to-end workflow for job creation, candidate applications, applicant listing, and role-based access management.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "REST API"
+    ],
+    github: "https://github.com/Rachna-Rathor/Job-Portal-Backend"
+  },
   // {
   //   title: "Job Portal Website",
   //   image: project3,
