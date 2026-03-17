@@ -12,11 +12,13 @@ import project8 from "../assets/projects/project8.png";
 import { image, title } from "framer-motion/client";
 
 
-export const HERO_CONTENT = `I am a passionate full-stack developer focused on building responsive, scalable, and real-world web applications. I enjoy creating clean, efficient solutions that combine strong functionality with great user experience. I am eager to grow as a developer, contribute to impactful projects, and continuously improve my technical skills.`;
+export const HERO_CONTENT = `I build secure, scalable backend systems and APIs that power real-world applications. Focused on clean architecture, performance optimization, and reliable data handling.`;
 
-export const ABOUT_TEXT = `I am a BTech graduate (2025) in Electronics and Communication Engineering (ECE) with hands-on experience in full-stack web development. I have built multiple projects using technologies such as React, Node.js, Express, and MongoDB, with a strong focus on performance, scalability, and usability.
+export const ABOUT_TEXT =`I am a B.Tech (ECE) 2025 graduate with a strong focus on backend development and problem-solving using Java (DSA).
 
-Driven by curiosity and a strong desire to learn, I enjoy transforming ideas into functional applications and solving real-world problems through code. I am actively seeking software development opportunities where I can apply my skills, collaborate with experienced teams, and contribute to building reliable and high-quality software products.`;
+I specialize in building robust server-side applications using Node.js, Express, and MongoDB, with hands-on experience in designing RESTful APIs, authentication systems, and role-based access control.
+
+I enjoy solving complex problems, optimizing backend performance, and ensuring data integrity in applications. I am currently seeking opportunities where I can contribute to building scalable and secure backend systems.`
 
 export const EXPERIENCES = [
   {
