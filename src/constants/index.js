@@ -106,7 +106,7 @@ export const PROJECTS = [
       "Encapsulation",
       "Abstraction"
     ],
-    github: "https://github.com/Rachna-Rathor/Payroll-Management-System"
+    github: "https://github.com/Rachna-Rathor/payroll-system"
   },
 
   {
