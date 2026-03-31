@@ -76,15 +76,7 @@ export const PROJECTS = [
     ],
     github: "https://github.com/Rachna-Rathor/Job-Portal-Backend"
   },
-  // {
-  //   title: "Job Portal Website",
-  //   image: project3,
-  //   description:
-  //     "A platform for job seekers and employers, featuring job postings, resume uploads, and application tracking. Built a seamless experience with dynamic filtering and real-time updates.",
-  //   technologies: ["React", "Node.js", "Express", "MongoDB"],
-  //   github: "https://github.com/Rachna-Rathor/job-portal-website"
-  // },
-
+  
   {
     title: "E-Commerce Website",
     image: project5,
@@ -100,11 +92,11 @@ export const PROJECTS = [
     description:
       "A React-based Employee Management System that enables administrators to create tasks and assign them to employees. Employees can view, update, and mark tasks as completed. The system offers a responsive user interface and ensures efficient task management.",
     technologies: ["React", "Tailwind"],
-    github: "https://github.com/Rachna-Rathor/Employee-Management-System" // Replace with the actual GitHub link
+    github: "https://github.com/Rachna-Rathor/employee_management_system" 
   },
   {
     title: "Employee Payroll System ",
-    image: project8, // add payroll-related image or screenshot
+    image: project8, 
     description:
       "A Java-based Payroll Management System designed to simulate real-world employee salary processing. The system automates salary calculations based on working hours and deductions, using core Object-Oriented Programming principles such as inheritance, encapsulation, and abstraction to ensure a modular and maintainable design.",
     technologies: [
