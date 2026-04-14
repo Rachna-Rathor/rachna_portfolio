@@ -12,13 +12,13 @@ import project8 from "../assets/projects/project8.png";
 import { image, title } from "framer-motion/client";
 
 
-export const HERO_CONTENT = `I build secure, scalable backend systems and APIs that power real-world applications. Focused on clean architecture, performance optimization, and reliable data handling.`;
+export const HERO_CONTENT =`I build responsive, user-friendly web applications using React.js and modern JavaScript. Focused on clean component architecture, seamless API integration, and delivering smooth user experiences.`;
 
-export const ABOUT_TEXT =`I am a B.Tech (ECE) 2025 graduate with a strong focus on backend development and problem-solving using Java (DSA).
+export const ABOUT_TEXT =`I am a B.Tech (ECE) 2025 graduate with strong expertise in frontend development using React.js, JavaScript, and TailwindCSS.
 
-I specialize in building robust server-side applications using Node.js, Express, and MongoDB, with hands-on experience in designing RESTful APIs, authentication systems, and role-based access control.
+I specialize in building responsive, component-driven web applications with hands-on experience in REST API integration, state management using Context API, and role-based UI design.
 
-I enjoy solving complex problems, optimizing backend performance, and ensuring data integrity in applications. I am currently seeking opportunities where I can contribute to building scalable and secure backend systems.`
+I enjoy crafting clean, intuitive interfaces and collaborating in agile team environments. I am currently seeking frontend/full-stack internship opportunities where I can contribute to building modern, user-friendly web applications.`
 
 export const EXPERIENCES = [
   {
@@ -46,21 +46,6 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
 
-  {
-    title: "Role-Based Voting System (Backend)",
-    image: project7,
-    description:
-      "A secure backend system for a voting application that supports role-based access control. The application allows users to register and log in using JWT authentication, cast a vote only once, and view voting results. Admin users can create and manage candidates, while normal users are restricted to voting functionalities. The system ensures data integrity by preventing duplicate votes and protecting routes using middleware.",
-    technologies: [
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Mongoose",
-      "JWT Authentication",
-      "REST API"
-    ],
-    github: "https://github.com/Rachna-Rathor/Voting-App"
-  },
   {
     title: "Job Portal (Backend)",
     image: project3,
@@ -93,6 +78,22 @@ export const PROJECTS = [
       "A React-based Employee Management System that enables administrators to create tasks and assign them to employees. Employees can view, update, and mark tasks as completed. The system offers a responsive user interface and ensures efficient task management.",
     technologies: ["React", "Tailwind"],
     github: "https://github.com/Rachna-Rathor/employee_management_system" 
+  },
+  
+  {
+    title: "Role-Based Voting System (Backend)",
+    image: project7,
+    description:
+      "A secure backend system for a voting application that supports role-based access control. The application allows users to register and log in using JWT authentication, cast a vote only once, and view voting results. Admin users can create and manage candidates, while normal users are restricted to voting functionalities. The system ensures data integrity by preventing duplicate votes and protecting routes using middleware.",
+    technologies: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT Authentication",
+      "REST API"
+    ],
+    github: "https://github.com/Rachna-Rathor/Voting-App"
   },
   {
     title: "Employee Payroll System ",
