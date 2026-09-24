@@ -68,7 +68,8 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website featuring product search, user authentication, and a shopping cart. Implemented a secure backend using Node.js and MongoDB.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    github: "https://github.com/Rachna-Rathor/Ecommerce-app-Using-MERN"
+    github: "https://github.com/Rachna-Rathor/ecommerce-App",
+    githubLive:"https://testing-deployment-eta.vercel.app/"
   },
 
   {

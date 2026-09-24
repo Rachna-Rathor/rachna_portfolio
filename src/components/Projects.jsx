@@ -76,7 +76,7 @@ const Projects = () => {
               {/* Live Project Link */}
               {project.github && (
                 <a
-                  href={project.github}
+                  href={project.githubLive}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ml-6 mt-4 inline-flex items-center text-blue-500 hover:text-blue-700"
